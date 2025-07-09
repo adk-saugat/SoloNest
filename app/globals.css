@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --color-main: #495057;
+  --color-second: #6c757d;
+  --color-inputborder: #dee2e6;
+}
+
+input {
+  @apply border border-inputborder px-2 py-1.5 rounded-lg w-[400px] text-lg;
+}
+
+button {
+  @apply px-4 py-2 rounded-lg text-lg w-[400px] cursor-pointer;
+}
