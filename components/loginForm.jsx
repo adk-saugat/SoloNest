@@ -9,13 +9,13 @@ export default function LoginForm() {
       >
         <h1 className="text-2xl font-semibold">Login to your account</h1>
         <span className="flex flex-col">
-          <label htmlFor="email" className="text-lg font-medium">
+          <label htmlFor="email" className="font-medium">
             Email
           </label>
           <input type="email" id="email" placeholder="m@example.com" />
         </span>
         <span className="flex flex-col">
-          <label htmlFor="password" className="text-lg font-medium">
+          <label htmlFor="password" className="font-medium">
             Password
           </label>
           <input type="password" id="password" />
@@ -28,7 +28,7 @@ export default function LoginForm() {
           <p className="text-md">
             Don't have an account? <span className="font-medium">Register</span>
           </p>
-          <span className="text-lg">or</span>
+          <span>or</span>
           <button className="border flex justify-center gap-2 items-center hover:border-second hover:text-second">
             <FcGoogle />
             Continue with Google

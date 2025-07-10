@@ -6,6 +6,14 @@
   --color-inputborder: #dee2e6;
 }
 
+* {
+  @apply box-border;
+}
+
+body {
+  @apply text-lg text-main h-screen;
+}
+
 input {
   @apply border border-inputborder px-2 py-1.5 rounded-lg w-[400px] text-lg;
 }
