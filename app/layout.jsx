@@ -10,7 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <AuthProvider>
       <html lang="en">
-        <body className="p-6 text-darkgray bg-[#F8F9FA]">{children}</body>
+        <body className="box-border text-darkgray bg-white h-screen">
+          {children}
+        </body>
       </html>
     </AuthProvider>
   );

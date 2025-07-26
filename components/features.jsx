@@ -1,7 +1,7 @@
 export default function Features() {
   return (
     <div>
-      <section className="flex flex-col space-y-4">
+      <section className="flex flex-col space-y-4 m-6">
         <p className="text-3xl font-semibold">Features Preview</p>
         <ul className="text-xl grid grid-cols-2 gap-4">
           <li className="basis-[50%] bg-lightgray shadow-2xs p-8 rounded-xl">
